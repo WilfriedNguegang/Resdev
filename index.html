@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,372 +17,378 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    
-<!-- header section starts  -->
 
-<header class="header">
+    <!-- header section starts  -->
 
-    <a href="#" class="logo"> <i class="fas fa-hotel"></i> Rooms Resa </a>
+    <header class="header">
 
-    <nav class="navbar">
-        <a href="#home">accueil</a>
-        <a href="#products">Chambres</a>
-        <a href="#categories">Catégories</a>
-        <a href="#review">Commentaires</a>
-    </nav>
+        <a href="#" class="logo"> <i class="fas fa-hotel"></i> Rooms Resa </a>
 
-    <div class="icons">
-        <div class="fas fa-bars" id="menu-btn"></div>
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-user" id="login-btn"></div>
-    </div>
+        <nav class="navbar">
+            <a href="#home">accueil</a>
+            <a href="#products">Chambres</a>
+            <a href="#categories">Catégories</a>
+            <a href="#review">Commentaires</a>
+        </nav>
 
-    <form action="" class="search-form">
-        <input type="search" id="search-box" placeholder="search here...">
-        <label for="search-box" class="fas fa-search"></label>
-    </form>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
 
-    <form action="" class="shopping-cart">
-        <h3> Reservez maintenant</h3>
-        <input type="date" name="date de debut" placeholder="date de debut" id="">
-        <input type="date" name="date de fin" placeholder="date de fin" id="">
-        <input type="email" placeholder="Email" class="box">
-        <input type="tel" placeholder="Telephone" class="box">
-        <div class="total"> cette reservation vous coutera : $59.69/- </div>
-        <input type="submit" value="Reservez maintenant" class="resabtn">
-    </form>
-        
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
 
-
-    <form action="" class="login-form">
-        <h3>login now</h3>
-        <input type="email" placeholder="your email" class="box">
-        <input type="password" placeholder="your password" class="box">
-        <p>forget your password <a href="#">click here</a></p>
-        <p>don't have an account <a href="#">create now</a></p>
-        <input type="submit" value="login now" class="btn">
-    </form>
-
-</header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="content">
-        <h3>Trouvez <span>la chambre</span> qui vous convient!</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
-        <a href="#" class="btn">Réservez dès maintenant!</a>
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- products section starts  -->
+        <form action="" class="shopping-cart">
+            <!-- formulaire -->
+            <h3> Reservez maintenant</h3>
+            <label>date d'entrée</label>
+            <input type="date" name="date de debut" placeholder="date de debut" id=""><br>
+            <label>date de sortie</label>
+            <input type="date" name="date de fin" placeholder="date de fin" id="">
+            <input type="email" placeholder="Email" class="box">
+            <input type="text" placeholder="Nom(s)" class="box">
+            <input type="text" placeholder="Prenom(s)" class="box">
+            <input type="text" placeholder="Téléphone" class="box">
+            <div class="total"> cette reservation vous coutera : $59.69/- </div>
+            <input type="submit" value="Reservez maintenant" class="resabtn" name="submit">
+        </form>
 
 
-<section class="products" id="products">
-    <h1 class="heading"> Nos <span>chambres</span> </h1>
 
-    <div class="swiper product-slider">
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
 
-        <div class="swiper-wrapper">
+    </header>
 
-            <div class="swiper-slide box">
-                
-                <h3>Lit une place</h3>
-                <img src="image/bedroom-690129_640.jpg" alt="">
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Trouvez <span>la chambre</span> qui vous convient!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
+            <a href="#" class="btn">Réservez dès maintenant!</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- products section starts  -->
+
+
+    <section class="products" id="products">
+        <h1 class="heading"> Nos <span>chambres</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+
+                    <h3>Lit une place</h3>
+                    <img src="image/bedroom-690129_640.jpg" alt="">
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
-            </div>
 
-            <div class="swiper-slide box">
-                
-                <h3>Lit deux places</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <a class="btn" id="cart-btn">Réserver</a>
-            </div>
+                <div class="swiper-slide box">
 
-            <div class="swiper-slide box">
-               
-                <h3>Avec coin cuisine</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                    <h3>Lit deux places</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
-            </div>
 
-            <div class="swiper-slide box">
-                
-                <h3>Avec séjour</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                <div class="swiper-slide box">
+
+                    <h3>Avec coin cuisine</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
+
+                <div class="swiper-slide box">
+
+                    <h3>Avec séjour</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
+                </div>
+
             </div>
 
         </div>
 
-    </div>
+        <div class="swiper product-slider">
 
-    <div class="swiper product-slider">
+            <div class="swiper-wrapper">
 
-        <div class="swiper-wrapper">
+                <div class="swiper-slide box">
 
-            <div class="swiper-slide box">
-                
-                <h3>Avec balcon</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                    <h3>Avec balcon</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
-            </div>
 
-            <div class="swiper-slide box">
-                
-                <h3>Element</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                <div class="swiper-slide box">
+
+                    <h3>Element</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
-            </div>
 
-            <div class="swiper-slide box">
-                
-                <h3>Element</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                <div class="swiper-slide box">
+
+                    <h3>Element</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
-            </div>
 
-            <div class="swiper-slide box">
-               
-                <h3>Element</h3>
-                <div class="price"> $4.99/- - 10.99/- </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                <div class="swiper-slide box">
+
+                    <h3>Element</h3>
+                    <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a class="btn" id="cart-btn">Réserver</a>
                 </div>
-                <a class="btn" id="cart-btn">Réserver</a>
+
             </div>
 
         </div>
 
-    </div>
 
+    </section>
 
-</section>
+    <!-- products section ends -->
 
-<!-- products section ends -->
+    <!-- categories section starts  -->
 
-<!-- categories section starts  -->
+    <section class="categories" id="categories">
 
-<section class="categories" id="categories">
+        <h1 class="heading"> Nos <span>catégories</span> </h1>
 
-    <h1 class="heading"> Nos <span>catégories</span> </h1>
+        <div class="box-container">
 
-    <div class="box-container">
+            <div class="box">
 
-        <div class="box">
-            
-            <h3>Une Pièce</h3>
-            <p>bénéficiez de 45% de réduction</p>
-            <a href="#" class="btn">Réserver</a>
+                <h3>Une Pièce</h3>
+                <p>bénéficiez de 45% de réduction</p>
+                <a href="#" class="btn">Réserver</a>
+            </div>
+
+            <div class="box">
+
+                <h3>Deux Pièces</h3>
+                <p>bénéficiez de 45% de réduction</p>
+                <a href="#" class="btn">Réserver</a>
+            </div>
+
+            <div class="box">
+
+                <h3>Trois Pièces</h3>
+                <p>bénéficiez de 45% de réduction</p>
+                <a href="#" class="btn">Réserver</a>
+            </div>
+
+            <div class="box">
+                <img src="image/hotel-room-1447201_1920.jpg" alt="">
+                <h3>Suite</h3>
+                <p>bénéficiez de 45% de réduction</p>
+                <a href="#" class="btn">Réserver</a>
+            </div>
+
         </div>
 
-        <div class="box">
-            
-            <h3>Deux Pièces</h3>
-            <p>bénéficiez de 45% de réduction</p>
-            <a href="#" class="btn">Réserver</a>
+    </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Quelques <span>Commentaires</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="box">
-            
-            <h3>Trois Pièces</h3>
-            <p>bénéficiez de 45% de réduction</p>
-            <a href="#" class="btn">Réserver</a>
-        </div>
+    </section>
 
-        <div class="box">
-            <img src="image/hotel-room-1447201_1920.jpg" alt="">
-            <h3>Suite</h3>
-            <p>bénéficiez de 45% de réduction</p>
-            <a href="#" class="btn">Réserver</a>
-        </div>
+    <!-- review section ends -->
 
-    </div>
+    <!-- footer section starts  -->
 
-</section>
+    <section class="footer">
 
-<!-- categories section ends -->
+        <div class="box-container">
 
-<!-- review section starts  -->
-
-<section class="review" id="review">
-
-    <h1 class="heading"> Quelques <span>Commentaires</span> </h1>
-
-    <div class="swiper review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <img src="image/pic-1.png" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+            <div class="box">
+                <h3> Rooms Resa <i class="fas fa-hotel"></i> </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
                 </div>
             </div>
 
-            <div class="swiper-slide box">
-                <img src="image/pic-2.png" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
+            <div class="box">
+                <h3>Infos contact</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> contactsroomsresa@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Limoges - 87000, France </a>
             </div>
 
-            <div class="swiper-slide box">
-                <img src="image/pic-3.png" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
+            <div class="box">
+                <h3>Liens rapides</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
             </div>
 
-            <div class="swiper-slide box">
-                <img src="image/pic-4.png" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Souscrivez et profitez des dernières annonces</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="Souscrire" class="btn">
             </div>
 
         </div>
 
-    </div>
+        <div class="credit"> créé par<span> I2 </span> </div>
 
-</section>
+    </section>
 
-<!-- review section ends -->
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3> Rooms Resa <i class="fas fa-hotel"></i> </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
-            <div class="share">
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <h3>Infos contact</h3>
-            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#" class="links"> <i class="fas fa-envelope"></i> contactsroomsresa@gmail.com </a>
-            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Limoges - 87000, France </a>
-        </div>
-
-        <div class="box">
-            <h3>Liens rapides</h3>
-            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
-            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
-            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
-            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
-            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
-        </div>
-
-        <div class="box">
-            <h3>Newsletter</h3>
-            <p>Souscrivez et profitez des dernières annonces</p>
-            <input type="email" placeholder="your email" class="email">
-            <input type="submit" value="Souscrire" class="btn">
-        </div>
-
-    </div>
-
-    <div class="credit"> créé par<span> I2 </span> </div>
-
-</section>
-
-<!-- footer section ends -->
+    <!-- footer section ends -->
 
 
 
@@ -397,10 +404,11 @@
 
 
 
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
