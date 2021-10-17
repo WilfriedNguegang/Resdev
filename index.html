@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Responsive Grocery Website Design Tutorial</title>
+    <link rel="icon" type="image/png" href="./image/hotel.png" />
+    <title>Rooms Resa</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -25,7 +26,7 @@
 
     <nav class="navbar">
         <a href="#home">accueil</a>
-        <a href="#chambres">Chambres</a>
+        <a href="#products">Chambres</a>
         <a href="#categories">Catégories</a>
         <a href="#review">Commentaires</a>
     </nav>
@@ -33,7 +34,6 @@
     <div class="icons">
         <div class="fas fa-bars" id="menu-btn"></div>
         <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
         <div class="fas fa-user" id="login-btn"></div>
     </div>
 
@@ -42,37 +42,17 @@
         <label for="search-box" class="fas fa-search"></label>
     </form>
 
-    <div class="shopping-cart">
-        <div class="box">
-            <i class="fas fa-trash"></i>
-            <img src="image/cart-img-1.png" alt="">
-            <div class="content">
-                <h3>Lit une place</h3>
-                <span class="price">$4.99/-</span>
-                <span class="quantity">qty : 1</span>
-            </div>
-        </div>
-        <div class="box">
-            <i class="fas fa-trash"></i>
-            <img src="image/cart-img-2.png" alt="">
-            <div class="content">
-                <h3>Lit deux places</h3>
-                <span class="price">$4.99/-</span>
-                <span class="quantity">qty : 1</span>
-            </div>
-        </div>
-        <div class="box">
-            <i class="fas fa-trash"></i>
-            <img src="image/cart-img-3.png" alt="">
-            <div class="content">
-                <h3>Lit deux places</h3>
-                <span class="price">$4.99/-</span>
-                <span class="quantity">qty : 1</span>
-            </div>
-        </div>
-        <div class="total"> total : $19.69/- </div>
-        <a href="#" class="btn">Payer</a>
-    </div>
+    <form action="" class="shopping-cart">
+        <h3> Reservez maintenant</h3>
+        <input type="date" name="date de debut" placeholder="date de debut" id="">
+        <input type="date" name="date de fin" placeholder="date de fin" id="">
+        <input type="email" placeholder="Email" class="box">
+        <input type="tel" placeholder="Telephone" class="box">
+        <div class="total"> cette reservation vous coutera : $59.69/- </div>
+        <input type="submit" value="Reservez maintenant" class="resabtn">
+    </form>
+        
+
 
     <form action="" class="login-form">
         <h3>login now</h3>
@@ -103,8 +83,8 @@
 
 <!-- products section starts  -->
 
-<section class="products" id="products">
 
+<section class="products" id="products">
     <h1 class="heading"> Nos <span>chambres</span> </h1>
 
     <div class="swiper product-slider">
@@ -123,7 +103,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
             <div class="swiper-slide box">
@@ -137,7 +117,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
             <div class="swiper-slide box">
@@ -151,7 +131,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
             <div class="swiper-slide box">
@@ -165,7 +145,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
         </div>
@@ -187,7 +167,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
             <div class="swiper-slide box">
@@ -201,7 +181,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
             <div class="swiper-slide box">
@@ -215,7 +195,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
             <div class="swiper-slide box">
@@ -229,7 +209,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn">Réserver</a>
             </div>
 
         </div>
