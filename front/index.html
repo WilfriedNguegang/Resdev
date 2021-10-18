@@ -44,17 +44,17 @@
             <label for="search-box" class="fas fa-search"></label>
         </form>
 
-        <form action="" class="shopping-cart">
+        <form action="../reservation.php" class="shopping-cart">
             <!-- formulaire -->
             <h3> Reservez maintenant</h3>
             <label>date d'entrée</label>
-            <input type="date" name="date de debut" placeholder="date de debut" id=""><br>
+            <input type="date" name="dateA" placeholder="date de debut" id=""><br>
             <label>date de sortie</label>
-            <input type="date" name="date de fin" placeholder="date de fin" id="">
-            <input type="email" placeholder="Email" class="box">
-            <input type="text" placeholder="Nom(s)" class="box">
-            <input type="text" placeholder="Prenom(s)" class="box">
-            <input type="text" placeholder="Téléphone" class="box">
+            <input type="date" name="dateF" placeholder="date de fin" id="">
+            <input type="email" placeholder="Email" class="box" name="email">
+            <input type="text" placeholder="Nom(s)" class="box" name="nom">
+            <input type="text" placeholder="Prenom(s)" class="box" name="prenom">
+            <input type="text" placeholder="Téléphone" class="box" name="telephone">
             <div class="total"> cette reservation vous coutera : $59.69/- </div>
             <input type="submit" value="Reservez maintenant" class="resabtn" name="submit">
         </form>

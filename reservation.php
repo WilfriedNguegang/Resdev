@@ -15,6 +15,7 @@
   $var->bindValue('dateA',$dateA);
   $var->bindValue('dateF',$dateF);
   $var->bindValue('telephone',$telephone);
+  $var->execute();
   if($var->execute())
   echo "Enregistrement validé";
 ?>
