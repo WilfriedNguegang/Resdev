@@ -16,6 +16,62 @@ document.querySelector('#cart-btn').onclick = () =>{
     navbar.classList.remove('active');
 }
 
+document.querySelector('#cart-btn1').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn2').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn3').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn4').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn5').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn6').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn7').onclick = () =>{
+  shoppingCart.classList.toggle('active');
+  searchForm.classList.remove('active');
+  loginForm.classList.remove('active');
+  navbar.classList.remove('active');
+}
+
 let loginForm = document.querySelector('.login-form');
 
 document.querySelector('#login-btn').onclick = () =>{
