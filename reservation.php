@@ -1,6 +1,6 @@
 <?php 
 
-  if(isset($_POST['submit']))
+  if(isset($_POST['submit'])){
   $email=$_POST['email'];
   @$prenom=$_POST["prenom"];
   @$nom=$_POST["nom"];
@@ -15,7 +15,7 @@
   $var->bindValue('dateA',$dateA);
   $var->bindValue('dateF',$dateF);
   $var->bindValue('telephone',$telephone);
-  $var->execute();
-  if($var->execute())
-  echo "Enregistrement validé";
+  $var->execute();}
+  if($var->execute()){
+  echo "Enregistrement validé";}
 ?>
