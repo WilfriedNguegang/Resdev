@@ -371,17 +371,17 @@
                 <h3> Rooms Resa <i class="fas fa-hotel"></i> </h3>
                 <p>Se reposer autrement!</p>
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/?lang=fr" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/?hl=fr" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
                 </div>
             </div>
 
             <div class="box">
                 <h3>Infos contact</h3>
-                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> (+33)0755441122 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> (+33)0688993211  </a>
                 <a href="#" class="links"> <i class="fas fa-envelope"></i> contactsroomsresa@gmail.com </a>
                 <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Limoges - 87000, France </a>
             </div>
@@ -403,7 +403,7 @@
 
         </div>
 
-        <div class="credit"> créé par<span> I2 </span> </div>
+        <div class="credit"> Créé par<span> l'entreprise K2NTS </span> </div>
 
     </section>
 
