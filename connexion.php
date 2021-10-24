@@ -6,7 +6,7 @@
 
     //On tente de se connecter
     try {
-        $conn = new PDO("mysql:host=$servername;dbname=room_resa", $username, $password);
+        $conn = new PDO("mysql:host=$servername;dbname=reservation", $username, $password);
         //On définit le mode d'erreur de PDO sur Exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo 'Connexion réussie';
