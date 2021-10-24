@@ -92,7 +92,7 @@ if (isset($_POST["submitA"])) {
         $stmt->bindValue(':passWord', $Password);
         $stmt->execute();
         $ResultC = $stmt->rowcount();
-        echo "<br>Il y'a ".$ResultC. " chambres";
+        echo "<br>Il y'a ".$ResultC. " chambres ";
         echo "<table>";
         echo "<tr>";
         echo "<td>Idchambre</td>";
@@ -110,6 +110,8 @@ if (isset($_POST["submitA"])) {
         }
         echo "</table>";
     }
+    echo "<a href='creachambre.php' style='align:center'>Ajout de chambre</a> <br>"; 
     echo "<a href='front/index.php' style='align:center'>Retour</a>"; 
+
 }
 ?>
