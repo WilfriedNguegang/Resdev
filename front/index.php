@@ -65,13 +65,14 @@
 
 
 
-        <form action="" class="login-form">
+        <form action="../verification.php" class="login-form" method="post">
             <h3>login now</h3>
-            <input type="email" placeholder="your email" class="box">
-            <input type="password" placeholder="your password" class="box">
+            <input type="email" placeholder="your email" class="box" name="email">
+            <input type="password" placeholder="your password" class="box" name="password">
             <p>forget your password <a href="#">click here</a></p>
             <p>don't have an account <a href="../creation.php">create now</a></p>
-            <input type="submit" value="login now" class="btn">
+            <input type="submit" value="Login Client" class="btn" name="submit">
+            <input type="submit" value="Admin" class="btn" name="submitA">
         </form>
 
     </header>
@@ -298,10 +299,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-1.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !.</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !.</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -314,10 +313,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-2.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !.</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !.</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -330,10 +327,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-3.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !..</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !..</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -346,10 +341,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-4.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !.</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !.</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
