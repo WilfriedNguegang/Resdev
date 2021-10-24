@@ -38,36 +38,41 @@
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-user" id="login-btn"></div>
         </div>
+        <div class="search-modal">
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
 
-        <form action="" class="search-form">
-            <input type="search" id="search-box" placeholder="search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
 
-        <form action="" class="shopping-cart">
+
+
+        <form action="../reservation.php" class="shopping-cart" method="post">
             <!-- formulaire -->
             <h3> Reservez maintenant</h3>
             <label>date d'entrée</label>
-            <input type="date" name="date de debut" placeholder="date de debut" id=""><br>
+            <input type="date" name="dateA" placeholder="date de debut" id=""><br>
             <label>date de sortie</label>
-            <input type="date" name="date de fin" placeholder="date de fin" id="">
-            <input type="email" placeholder="Email" class="box">
-            <input type="text" placeholder="Nom(s)" class="box">
-            <input type="text" placeholder="Prenom(s)" class="box">
-            <input type="text" placeholder="Téléphone" class="box">
+            <input type="date" name="dateF" placeholder="date de fin" id="">
+            <input type="email" placeholder="Email" class="box" name="email">
+            <input type="text" placeholder="Nom(s)" class="box" name="nom">
+            <input type="text" placeholder="Prenom(s)" class="box" name="prenom">
+            <input type="text" placeholder="Téléphone" class="box" name="telephone">
             <div class="total"> cette reservation vous coutera : $59.69/- </div>
             <input type="submit" value="Reservez maintenant" class="resabtn" name="submit">
         </form>
 
 
 
-        <form action="" class="login-form">
+        <form action="../verification.php" class="login-form" method="post">
             <h3>login now</h3>
-            <input type="email" placeholder="your email" class="box">
-            <input type="password" placeholder="your password" class="box">
+            <input type="email" placeholder="your email" class="box" name="email">
+            <input type="password" placeholder="your password" class="box" name="password">
             <p>forget your password <a href="#">click here</a></p>
-            <p>don't have an account <a href="#">create now</a></p>
-            <input type="submit" value="login now" class="btn">
+            <p>don't have an account <a href="../creation.php">create now</a></p>
+            <input type="submit" value="Login Client" class="btn" name="submit">
+            <input type="submit" value="Admin" class="btn" name="submitA">
         </form>
 
     </header>
@@ -125,7 +130,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <a class="btn" id="cart-btn1" >Réserver</a>
+                    <a class="btn" id="cart-btn1">Réserver</a>
                 </div>
 
                 <div class="swiper-slide box">
@@ -140,7 +145,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <a class="btn" id="cart-btn2" >Réserver</a>
+                    <a class="btn" id="cart-btn2">Réserver</a>
                 </div>
 
                 <div class="swiper-slide box">
@@ -155,7 +160,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <a class="btn" id="cart-btn3" >Réserver</a>
+                    <a class="btn" id="cart-btn3">Réserver</a>
                 </div>
 
             </div>
@@ -178,7 +183,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <a class="btn" id="cart-btn4" >Réserver</a>
+                    <a class="btn" id="cart-btn4">Réserver</a>
                 </div>
 
 
@@ -195,7 +200,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <a class="btn" id="cart-btn5" >Réserver</a>
+                    <a class="btn" id="cart-btn5">Réserver</a>
                 </div>
 
                 <div class="swiper-slide box">
@@ -225,7 +230,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <a class="btn" id="cart-btn7" >Réserver</a>
+                    <a class="btn" id="cart-btn7">Réserver</a>
                 </div>
 
             </div>
@@ -294,10 +299,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-1.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !.</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !.</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -310,10 +313,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-2.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !.</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !.</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -326,10 +327,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-3.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !..</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !..</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -342,10 +341,8 @@
 
                 <div class="swiper-slide box">
                     <img src="image/pic-4.png" alt="">
-                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec.
-                        Charme colonial de cet établissement 3 étoiles où le repos est appréciable.
-                        Une pscine qui nous a permis de nous reposer en fin de journée.
-                        A découvrir !.</p>
+                    <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
+                        nous reposer en fin de journée. A découvrir !.</p>
                     <h3>john deo</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -400,7 +397,7 @@
             <div class="box">
                 <h3>Newsletter</h3>
                 <p>Souscrivez et profitez de nos dernières annonces! ;-) </p>
-                <input type="email" placeholder="your email" class="email">
+                <input type="email" placeholder="your email" class="email" name="email">
                 <input type="submit" value="Souscrire" class="btn">
             </div>
 
