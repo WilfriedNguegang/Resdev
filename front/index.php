@@ -59,10 +59,9 @@
             <input type="text" placeholder="Nom(s)" class="box" name="nom">
             <input type="text" placeholder="Prenom(s)" class="box" name="prenom">
             <input type="text" placeholder="Téléphone" class="box" name="telephone">
-            <div class="total"> cette reservation vous coutera : $59.69/- </div>
+            <div class="total"> cette reservation vous coutera : €59.69 </div>
             <input type="submit" value="Reservez maintenant" class="resabtn" name="submit">
         </form>
-
 
 
         <form action="../verification.php" class="login-form" method="post">
@@ -107,7 +106,7 @@
 
                     <h3>Chambre Lit une place</h3>
                     <img src="image/bedroom-690129_640.jpg" alt="">
-                    <div class="price"> $28.99/- - 10.99/- </div>
+                    <div class="price"> €20.99 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -122,7 +121,7 @@
 
                     <h3>Chambre Couple</h3>
                     <img src="image/hotel-room-1447201_640.jpg" alt="">
-                    <div class="price"> $28.99/- - 10.99/- </div>
+                    <div class="price"> €29.99 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -137,7 +136,7 @@
 
                     <h3>Suite</h3>
                     <img src="image/bed-4416515_1920.jpg" alt="">
-                    <div class="price"> $50.99/- - 10.99/- </div>
+                    <div class="price"> €50.99</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -152,7 +151,7 @@
 
                     <h3>Suite Moderne</h3>
                     <img src="image/image.jfif" alt="">
-                    <div class="price"> $55.99/- - 10.99/- </div>
+                    <div class="price"> €100</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -175,7 +174,7 @@
 
                     <h3>Avec balcon</h3>
                     <img src="image/krystal-cancun-habitacion-2.jpg" alt="">
-                    <div class="price"> $64.99/- - 10.99/- </div>
+                    <div class="price"> €64.99 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -192,7 +191,7 @@
 
                     <h3>Chambre Couple</h3>
                     <img src="image/bedroom-690129_640.jpg" alt="">
-                    <div class="price"> $45/- - 10.99/- </div>
+                    <div class="price"> €45</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -207,7 +206,7 @@
 
                     <h3>Chambre solo</h3>
                     <img src="image/bedroom-690129_640.jpg" alt="">
-                    <div class="price"> $40.99/- - 10.99/- </div>
+                    <div class="price"> €40.99</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -222,7 +221,7 @@
 
                     <h3>Chambre</h3>
                     <img src="image/bedroom-690129_640.jpg" alt="">
-                    <div class="price"> $30.99/- - 10.99/- </div>
+                    <div class="price"> €30.99</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -255,7 +254,7 @@
                 <h3>Une Pièce</h3>
                 <img src="image/hotel-room-1447201_1920.jpg" alt="">
                 <p>bénéficiez de 25% de réduction si vous reservez une semaine avant votre sejour</p>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn8" >Réserver</a>
             </div>
 
             <div class="box">
@@ -263,7 +262,7 @@
                 <h3>Deux Pièces</h3>
                 <img src="image/hotel-room-1447201_1920.jpg" alt="">
                 <p>bénéficiez de 35% de réduction si vous reservez une semaine avant votre sejour</p>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn9">Réserver</a>
             </div>
 
             <div class="box">
@@ -271,7 +270,7 @@
                 <h3>Trois Pièces</h3>
                 <img src="image/hotel-room-1447201_1920.jpg" alt="">
                 <p>bénéficiez de 60% de réduction si vous reservez une semaine avant votre sejour</p>
-                <a href="#" class="btn">Réserver</a>
+                <a class="btn" id="cart-btn10">Réserver</a>
             </div>
 
             <div class="box">
@@ -306,7 +305,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
@@ -315,7 +313,7 @@
                     <img src="image/pic-2.png" alt="">
                     <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
                         nous reposer en fin de journée. A découvrir !.</p>
-                    <h3>john deo</h3>
+                    <h3>Elenna Murphy</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -329,13 +327,12 @@
                     <img src="image/pic-3.png" alt="">
                     <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
                         nous reposer en fin de journée. A découvrir !..</p>
-                    <h3>john deo</h3>
+                    <h3>Brice Grey</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
 
@@ -343,7 +340,7 @@
                     <img src="image/pic-4.png" alt="">
                     <p>L'hôtel Arcadia à Lannion, une belle étape bretonne pour découvrir une région magnifique entre Trébeurden et Peros-Guirec. Charme colonial de cet établissement 3 étoiles où le repos est appréciable. Une pscine qui nous a permis de
                         nous reposer en fin de journée. A découvrir !.</p>
-                    <h3>john deo</h3>
+                    <h3>Elisa Taylor</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
