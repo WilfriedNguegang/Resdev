@@ -5,25 +5,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Formulaire d'inscription</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>Rooms Resa Inscription</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
-<style>
-body {
-  background-image: url('front/image/enregistrement_client.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-</style>
     <?php
     if(isset($_POST['btn']))
     $email=$_POST['email'];
@@ -48,60 +38,67 @@ body {
     echo "Enregistrement validé";
    
     ?>
+
+        <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-hotel"></i> Rooms Resa </a>
+        </header>
+
         <div class="container">
-            <h1>Votre espace client</h1>
-            <br>
-            <div class="row">
-                <div class="col-md-6 offset-3">
+            <div class="title">Inscription</div>
+            <div class="content">
                     <form class="needs-validation" novalidate method="POST" >
-                        <div class="col-md-6 mr-auto">
-                            <label>Adresse e-mail</label>
+                        <div class="user-details">
+                            <div class="input-box">
+                            <span class="details">Adresse e-mail</label>
                             <input type="mail" class="form-control" id="email" name="email" placeholder="Saisissez votre @ mail*">
 
                         </div>
-                        <div class="col-md-6 mr-auto ">
-                            <label>Mot de passe</label>
+                        <div class="input-box">
+                            <span class="details">Mot de passe</label>
                             <input type="password" class="form-control" id="password" name="password">
                         </div>
-                        <div class="col-md-6 mr-auto">
+                        <div class="input-box">
                             <label for="Sexe">Sexe</label>
                             <select class="form-control" name="sexe">
                             <option value="Féminin">Féminin</option>
                             <option value="Masculin">Masculin</option>
                         </select>
                         </div>
-                        <div class="col-md-6 mr-auto">
-                            <label for="Nom">Nom</label>
+                        <div class="input-box">
+                            <span class="details">Nom</label>
                             <input type="text" class="form-control" id="nom" name="nom" placeholder="Saisissez votre nom*">
                         </div>
-                        <div class="col-md-6 mr-auto">
-                            <label>Prénom</label>
+                        <div class="input-box">
+                            <span class="details">Prénom</label>
                             <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Saisissez votre prénom*">
                         </div>
-                        <div class="col-md-6 mr-auto">
-                            <label>Ville</label>
+                        <div class="input-box">
+                            <span class="details">Ville</label>
                             <input type="text" class="form-control" id="ville" name="ville" placeholder="Saisissez votre ville">
                         </div>
-                        <div class="col-md-6 mr-auto">
-                            <label>Numéro de téléphone</label>
+                        <div class="input-box">
+                            <span class="details">Téléphone</label>
                             <input type="text" class="form-control" id="numero" name="numero" placeholder="Saisissez votre numéro portable">
                         </div>
-                        <div class="col-md-6 mr-auto">
-                            <label>Date de naissance</label>
+                        <div class="input-box">
+                            <span class="details">Date de naissance</label>
                             <input type="date" class="form-control" id="date" name="date" placeholder="Saisissez votre date de naissance">
                         </div>
-                        <br>
+            
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">J'accepte les conditions d'utilisation</label>
-                        </div><br>
-                        <button type="submit" class="btn btn-primary" name="btn">Je Crée mon compte</button>
+                        </div>
+                        <div class="button">
+                        <input type="submit" name="btn" value="Je Crée mon compte"></input>
+                        </div>
                     </form>
                 </div>
 
             </div>
         </div>
-        
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
 
 </html>
